@@ -41,5 +41,5 @@ sed -i "s/repository: pashaliyski/repository: $user/g" charts/vmware-task/values
 
 ### Install helm chart in k8s cluster using helm cli:
 ```
-helm upgrade $app-name --install --namespace $namespace ./vmware-task
+helm upgrade $app-name --install --namespace $namespace ./charts/vmware-task
 ```
