@@ -37,6 +37,7 @@ class CustomCollector(object):
             value2.add_metric([url],scheck[1])
             yield value
             yield value2
+            
 
 if __name__ == '__main__':
     start_http_server(8000)
